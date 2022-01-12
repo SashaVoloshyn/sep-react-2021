@@ -1,25 +1,28 @@
 import logo from './logo.svg';
 import './App.css';
+import Comments from './components/Comments';
+import Users from './components/Users';
+import Posts from './components/Posts';
+
+import {useState} from 'react';
+import {useEffect} from 'react';
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+    return (
+        <div className={'wrap'}>
+            <div className="usersPosts">
+                <div className="usersPosts__elements">
+                    <Users/>
+                </div>
+                <div className="usersPosts__elements">
+                    <Posts/>
+                </div>
+            </div>
+            <Comments/>
+        </div>
+    );
 }
 
 export default App;
