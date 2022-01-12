@@ -19,7 +19,7 @@ import Comment from './Comment';
     return (
         <div>
                 {
-                    comments.map(value => <h5 key={value.id}> <Comment item={value}/></h5>)
+                    comments.map(value => <div key={value.id}> <Comment item={value}/></div>)
                 }
 
         </div>

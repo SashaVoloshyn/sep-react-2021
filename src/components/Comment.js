@@ -3,7 +3,8 @@ import React from 'react';
 const Comment = ({item}) => {
     return (
         <div>
-            {item.body}
+            <h5>Comment : {item.id}</h5>
+            <p>{item.body}</p>
         </div>
     );
 };
