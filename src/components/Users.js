@@ -20,7 +20,7 @@ const Users = () => {
     return (
         <div>
                 {
-                    users.map(value => <h3 key={value.id}><User item={value}/></h3>)
+                    users.map(value => <div key={value.id}><User item={value}/></div>)
                 }
         </div>
     );
