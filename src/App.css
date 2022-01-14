@@ -1,0 +1,11 @@
+.user__info {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 20px;
+}
+.user {
+    display: flex;
+    align-items: center;
+}
+
