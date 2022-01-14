@@ -2,10 +2,25 @@
     display: flex;
     justify-content: space-between;
 
+
     padding: 20px;
 }
 .user {
     display: flex;
     align-items: center;
 }
+.wrap {
+
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.user__wrap {
+    border: 1px black solid;
+    border-radius: 15px;
+}
+.posts {
+    padding: 10px;
+}
+
 

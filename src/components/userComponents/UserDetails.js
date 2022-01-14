@@ -1,16 +1,8 @@
-import React, {useState} from 'react';
+import React from 'react';
 
-import {userService} from "../../services/user.service";
-import Posts from "../postComponents/Posts";
 
-const UserDetails = ({details}) => {
-    const [posts, setPosts] = useState([]);
+const UserDetails = ({details , getPosts}) => {
 
-    const getPosts = (id) => {
-        userService.getId(id)
-            .then(value => setPosts(value));
-        console.log(id)
-    };
 
 
     return (
@@ -23,7 +15,6 @@ const UserDetails = ({details}) => {
             <h4>{details.phone}</h4>
             <button onClick={()=>getPosts(details.id)} >click me</button>
 
-            <div>{posts.map(value => <Posts key={value.id} item={value}/>)} </div>
         </div>
     );
 };
