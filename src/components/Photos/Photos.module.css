@@ -1,0 +1,14 @@
+.photoInfo {
+
+}
+
+.photos {
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid #ff8f45;
+    align-items: center;
+
+}
+.photos img {
+    width: 100px;
+}

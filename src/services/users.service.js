@@ -12,8 +12,15 @@ const getByIdPosts = (id) => {
         .then(value => value.json());
 };
 
+const getByIdAlbums = (id) => {
+    return fetch('https://jsonplaceholder.typicode.com/users/' + id +'/albums')
+        .then(value => value.json());
+
+}
+
 export const usersService = {
     getAll,
     getById,
-    getByIdPosts
+    getByIdPosts,
+    getByIdAlbums
 };
