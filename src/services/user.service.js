@@ -3,12 +3,5 @@ const getAll = () => {
         .then(value => value.json());
 };
 
-const getById = (id) => {
-    return fetch('https://jsonplaceholder.typicode.com/users/' + id)
-        .then(value => value.json());
-};
 
-export const userService = {
-    getAll,
-    getById,
-};
+export const userService = {getAll};
