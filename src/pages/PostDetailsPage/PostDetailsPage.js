@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import {Link, Outlet, useLocation, useParams} from "react-router-dom";
+
 import {postsService} from "../../services/posts.service";
-import {PostCommentsPage} from "../PostCommentsPage/PostCommentsPage";
 
 const PostDetailsPage = () => {
     const {id} = useParams();

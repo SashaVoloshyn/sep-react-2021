@@ -1,0 +1,19 @@
+.usersWrap {
+    padding: 10px;
+    display: flex;
+
+
+}
+.users {
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+    width: 48%;
+}
+.userDetails {
+    width: 50%;
+
+}
+.userDetails button{
+    width: 100%;
+}
