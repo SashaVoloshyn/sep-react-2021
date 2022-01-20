@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    background-color: #ff8f45;
+    border-radius: 10px;
+   padding: 5px;
+}
+button a {
+    color: black;
+    text-decoration: none;
+}
+
+button:hover {
+    color: snow;
+}

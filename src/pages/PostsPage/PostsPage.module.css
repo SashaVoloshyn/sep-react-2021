@@ -1,0 +1,19 @@
+.postsWrap {
+    padding: 10px;
+    display: flex;
+
+
+}
+.posts {
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+    width: 48%;
+}
+.postDetails {
+    width: 50%;
+
+}
+.postDetails button{
+    width: 100%;
+}
