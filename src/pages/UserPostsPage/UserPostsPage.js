@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import {useParams} from "react-router-dom";
-import {postsService} from "../../services/posts.service";
+
 import {usersService} from "../../services/users.service";
 import UserPosts from "../../components/UserPosts/UserPosts";
 

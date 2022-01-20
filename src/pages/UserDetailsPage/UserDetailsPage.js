@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import {Outlet, useLocation, useParams,Link} from "react-router-dom";
-import {postsService} from "../../services/posts.service";
+
 import {usersService} from "../../services/users.service";
 
 const UserDetailsPage = () => {
