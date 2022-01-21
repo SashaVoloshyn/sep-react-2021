@@ -7,7 +7,7 @@ const Albums = ({album}) => {
             <div>UserId : {album.userId}</div>
             <div>Id : {album.id}</div>
             <div>Title : {album.title}</div>
-            <button><Link to={`${album.id.toString()}/photos`}>Photos</Link></button>
+            <Link to={`${album.id.toString()}/photos`}><button>Photos</button></Link>
         </div>
     );
 };

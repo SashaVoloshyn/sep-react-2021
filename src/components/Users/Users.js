@@ -6,8 +6,8 @@ const Users = ({user}) => {
         <div>
             <h3>
                 Name : {user.name} --- {user.username}
-                <button><Link to={user.id.toString()} state={user}>User Details</Link></button>
-                <button><Link to={`${user.id.toString()}/albums`}>Albums</Link></button>
+                <Link to={user.id.toString()} state={user}><button>User Details</button></Link>
+                <Link to={`${user.id.toString()}/albums`}><button>Albums</button></Link>
             </h3>
         </div>
     );

@@ -25,7 +25,7 @@ const PostDetailsPage = () => {
                     <h4>UserID : {post.userId}</h4>
                     <h3>Title : {post.title}</h3>
                     <h4>Body : {post.body}</h4>
-                    <button><Link to={`comments`} >Comments</Link></button>
+                    <Link to={`comments`} ><button>Comments</button></Link>
                 </div>
             )}
             <Outlet/>

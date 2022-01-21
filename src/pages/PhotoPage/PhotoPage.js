@@ -7,7 +7,7 @@ import css from './PhotoPage.module.css'
 
 const PhotoPage = () => {
     const [photos, setPhotos] = useState([]);
-    const {id} = useParams();
+    const {albumsId:id} = useParams();
 
     useEffect(() => {
         albumService.getById(id).then(value => setPhotos(value));
