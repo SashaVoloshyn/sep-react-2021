@@ -1,0 +1,24 @@
+.App {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: black;
+    color: snow;
+    padding: 30px;
+    text-align: center;
+    font-size: 30px;
+}
+.App button {
+    background: rebeccapurple;
+    color: snow;
+    border: none;
+    margin: 5px;
+    border-radius: 10px;
+    min-width: 60px;
+    min-height: 25px;
+    cursor: pointer;
+}
+body {
+    margin: 0;
+
+}
