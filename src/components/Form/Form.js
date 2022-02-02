@@ -2,6 +2,8 @@ import React from 'react';
 import {useDispatch} from "react-redux";
 
 import {addTodo} from "../../store";
+import MyInput from "../MyComponents/MyInput/MyInput";
+import MyButton from "../MyComponents/MyButton/MyButton";
 
 const Form = () => {
 
@@ -16,8 +18,8 @@ const dispatch = useDispatch();
 
     return (
         <form onSubmit={submit}>
-            <input type="text" name={'todoInput'}/>
-            <button>Save</button>
+            <MyInput type="text" name={'todoInput'}/>
+            <MyButton>Save</MyButton>
 
         </form>
     );
