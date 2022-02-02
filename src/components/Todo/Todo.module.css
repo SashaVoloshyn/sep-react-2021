@@ -1,0 +1,14 @@
+.changeStatus {
+    text-decoration: line-through;
+}
+.todoBox {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    border: 2px solid darkviolet;
+    align-items: center;
+    width: 20%;
+    margin: 0 auto;
+
+}
+
