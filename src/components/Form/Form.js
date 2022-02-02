@@ -23,9 +23,9 @@ const Form = () => {
 
     return (
         <form onSubmit={handleSubmit(submit)}>
-            <input type="text" placeholder={'model'} {...register('model')}/>
-            <input type="text" placeholder={'price'} {...register('price')}/>
-            <input type="text" placeholder={'year'} {...register('year')}/>
+            <label>   Model : <input type="text" placeholder={'enter the model'} {...register('model')}/></label>
+            <label>   Price : <input type="text" placeholder={'enter the price'} {...register('price')}/></label>
+            <label>   Year :  <input type="text" placeholder={'enter the year'} {...register('year')}/></label>
             <button>Update</button>
         </form>
     );
