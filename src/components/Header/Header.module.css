@@ -1,0 +1,17 @@
+.header {
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(45deg, rgba(250, 141, 101, 0.74), rgba(255, 156, 214, 0.58));
+    column-gap: 80px;
+}
+.header a {
+    color: black;
+    text-decoration: none;
+    font-size: 40px;
+}
+
+a:hover {
+    color: #002eff;
+}
