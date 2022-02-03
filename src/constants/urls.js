@@ -1,7 +1,10 @@
 const baseURL = 'http://91.201.233.14/api/v2';
 
+
 export const  urls ={
-    cars:'/cars'
+    cars:'/cars',
 }
 
-export default baseURL;
+
+
+export {baseURL}
