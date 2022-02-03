@@ -3,7 +3,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(45deg, rgba(250, 141, 101, 0.74), rgba(255, 156, 214, 0.58));
+    background: linear-gradient(45deg, rgba(255, 112, 60, 0.74), rgba(255, 156, 214, 0.58));
     column-gap: 80px;
 }
 .header a {

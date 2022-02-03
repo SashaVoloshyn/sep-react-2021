@@ -5,3 +5,24 @@
 .App {
 
 }
+
+.App input{
+    width: 20%;
+    padding: 5px 15px;
+    margin: 5px 0;
+    border: 2px solid rebeccapurple;
+}
+.App button {
+    padding: 5px 15px;
+    color: rebeccapurple;
+    font-size: 14px;
+    background: transparent;
+    border: 1px solid rebeccapurple;
+    cursor: pointer;
+}
+.Layout {
+    margin: 10px
+}
+.Layout h1 {
+    font-size: 50px;
+}
