@@ -32,16 +32,16 @@ const user : IUser= {
     }
 
 
-function showSum(a:number,b:number){
+function showSum(a:number,b:number) : void{
     console.log(a + b);
 }
-function sum(a:number,b:number) {
+function sum(a:number,b:number) :number {
     return a + b
 }
 
 
-function incAge(someUser:IUser, inc:number){
-    someUser.age+=inc
+function incAge(someUser:IUser, inc:number):object{
+     someUser.age+=inc
     return someUser
 }
 
